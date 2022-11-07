@@ -2258,7 +2258,7 @@ input, select, textarea {
 
 	#one {
 		background: url("/images/fulls/SOFTGIF.gif"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
+		background-size: 500px 500px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		color: #000305;
@@ -2278,7 +2278,7 @@ input, select, textarea {
 	#work {
 		background-color: rgb(129, 172, 184);
 	}
-	.content.box.style2 {
+	#contact.box.style2 {
 		background-color: rgb(168, 230, 247);
 		color: #4dd6f2;
 	}
