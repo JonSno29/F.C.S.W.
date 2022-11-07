@@ -2245,7 +2245,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/images/fulls/powerwash.jpeg"), url("../../images/fulls/cleanimg2.jpeg");
+		background: url("/images/fulls/powerwash.jpeg"), url("../../images/fulls/powerwash.jpeg");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2257,7 +2257,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("/images/fulls/SOFTGIF.gif"), url("../../images/one.jpg");
+		background: url("/images/fulls/SOFTGIF.gif"), url("../../images/fulls/SOFTGIF.gif");
 		background-size: 500px 500px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2268,7 +2268,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("/images/fulls/cleanimg2.jpeg"), url("../../images/two.jpg");
+		background: url("/images/fulls/cleanimg2.jpeg"), url("../../images/fulls/cleanimg2.jpeg");
 		background-size:  cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
