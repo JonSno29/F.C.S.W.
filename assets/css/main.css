@@ -91,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #060606;
 		height: 100%;
 		min-width: 320px;
 	}
@@ -609,7 +609,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em #e5e6e7;
+		border-left: solid 0.5em #000001;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -621,7 +621,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: #b40f0f;
 		color: #39454b;
 		padding: 2em;
 	}
@@ -736,7 +736,7 @@ input, select, textarea {
 		.button.style2,
 		button.style2 {
 			background-color: transparent;
-			border: solid 2px #e5e6e7;
+			border: solid 2px #0b0b0b;
 			color: inherit;
 		}
 
@@ -863,7 +863,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 0.65em 0.75em;
 		background: none;
-		border: solid 2px #e5e6e7;
+		border: solid 2px #1b63aa;
 		color: inherit;
 		border-radius: 0.5em;
 		outline: none;
@@ -2060,7 +2060,7 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #030303;
 			}
 
 				.main.dark .button.style2:hover {
@@ -2278,9 +2278,110 @@ input, select, textarea {
 	#work {
 		background-color: rgb(129, 172, 184);
 	}
-	#contact.box.style2 {
+	#testimonial {
+		background-color: rgb(129, 172, 184);
+	}
+	.card {
+		background-color: rgb(1, 5, 6);
+		width: 95%;
+		margin: 2rem;
+		border-radius: 10%;
+		padding: 2rem;
+		color: rgb(178, 161, 31);
+		-webkit-box-shadow: 0rem 0 2rem 0.5rem #eaeeee33;
+				box-shadow: 0rem 0 2rem 0.5rem #f5f9fa33;
+	  }
+	  
+	  .card .card-heading {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+	  }
+	  
+	  .card .card-heading .card-img {
+		border-radius: 10%;
+		width: 30px;
+		height: 30px;
+		margin-right: 1rem;
+		-webkit-box-shadow: 0 0 0rem 0.1rem rgba(244, 162, 9, 0.54);
+				box-shadow: 0 0 0rem 0.1rem rgba(234, 109, 67, 0.54);
+	  }
+	  
+	  .card .card-heading .card-heading-text {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		font-size: 1.5rem;
+		font-weight: 400;
+		color: #fff;
+	  }
+	  
+	  .card .card-heading .card-heading-text .card-heading-title {
+		color: rgba(248, 246, 246, 0.541);
+	  }
+	  
+	  .card .card-quote {
+		padding: 1rem 0;
+		font-size: 1.3rem;
+		font-weight: 700;
+		color: #fff;
+	  }
+	  
+	  .card .card-desc {
+		color: #faf7f7;
+		font-size: 0.9rem;
+		line-height: 1.3rem;
+	  }
+	  
+	  .card:nth-child(1) {
+		background-color: #010102;
+	  }
+	  
+	  .card:nth-child(2) {
+		background-color: #020203;
+	  }
+	  
+	  .card:nth-child(3) {
+		background-color: rgb(3, 3, 3);
+	  }
+	  
+	  .card:nth-child(4) {
+		background-color: #050505;
+	  }
+	  
+	  .card:nth-child(5) {
+		background-color: rgb(6, 6, 6);
+	  }
+	  
+	  .card:nth-child(3), .card:nth-child(5) {
+		color: #020202;
+	  }
+	  
+	  .card:nth-child(3) .card-heading-title, .card:nth-child(5) .card-heading-title {
+		color: rgba(5, 5, 5, 0.507) !important;
+	  }
+	  
+	  .card:nth-child(3) .card-desc, .card:nth-child(5) .card-desc {
+		color: #010101 !important;
+	  }
+	  
+	  .card:nth-child(1) {
+		background-image: url("./images/fulls/powerwash.jpeg");
+		background-repeat: no-repeat;
+		background-position: 90% 0%;
+	  }
+	
+	  #contact.box.style2 {
 		background-color: rgb(168, 230, 247);
-		color: #4dd6f2;
+		color: #040606;
+		
 	}
 
 /* Contact */
@@ -2327,3 +2428,5 @@ input, select, textarea {
 			}
 
 		}
+		
+			
