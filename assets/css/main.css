@@ -734,11 +734,7 @@ input, select, textarea {
 		input[type="submit"].style2,
 		input[type="reset"].style2,
 		.button.style2,
-		button.style2 {
-			background-color: transparent;
-			border: solid 2px #0b0b0b;
-			color: inherit;
-		}
+	
 
 			input[type="button"].style2:hover,
 			input[type="submit"].style2:hover,
@@ -2282,12 +2278,12 @@ input, select, textarea {
 		background-color: rgb(129, 172, 184);
 	}
 	.card {
-		background-color: rgb(1, 5, 6);
-		width: 95%;
+		background-color: rgb(129, 172, 184);
+		width: 90%;
 		margin: 2rem;
-		border-radius: 10%;
+		border-radius: 15%;
 		padding: 2rem;
-		color: rgb(178, 161, 31);
+		color: rgb(0, 1, 1);
 		-webkit-box-shadow: 0rem 0 2rem 0.5rem #eaeeee33;
 				box-shadow: 0rem 0 2rem 0.5rem #f5f9fa33;
 	  }
@@ -2302,7 +2298,7 @@ input, select, textarea {
 	  }
 	  
 	  .card .card-heading .card-img {
-		border-radius: 10%;
+		border-radius: 15%;
 		width: 30px;
 		height: 30px;
 		margin-right: 1rem;
@@ -2320,56 +2316,56 @@ input, select, textarea {
 				flex-direction: column;
 		font-size: 1.5rem;
 		font-weight: 400;
-		color: #fff;
+		color: rgb(6, 6, 6);
 	  }
 	  
 	  .card .card-heading .card-heading-text .card-heading-title {
-		color: rgba(248, 246, 246, 0.541);
+		color: rgba(245, 235, 235, 0.541);
 	  }
 	  
 	  .card .card-quote {
 		padding: 1rem 0;
 		font-size: 1.3rem;
 		font-weight: 700;
-		color: #fff;
+		color: rgb(5, 4, 4);
 	  }
 	  
 	  .card .card-desc {
-		color: #faf7f7;
+		color: #020202;
 		font-size: 0.9rem;
 		line-height: 1.3rem;
 	  }
 	  
 	  .card:nth-child(1) {
-		background-color: #010102;
+		background-color: rgb(129, 172, 184);
 	  }
 	  
 	  .card:nth-child(2) {
-		background-color: #020203;
+		background-color: rgb(129, 172, 184);
 	  }
 	  
 	  .card:nth-child(3) {
-		background-color: rgb(3, 3, 3);
+		background-color: rgb(129, 172, 184);
 	  }
 	  
 	  .card:nth-child(4) {
-		background-color: #050505;
+		background-color: rgb(129, 172, 184);
 	  }
 	  
 	  .card:nth-child(5) {
-		background-color: rgb(6, 6, 6);
+		background-color: rgb(129, 172, 184);
 	  }
 	  
 	  .card:nth-child(3), .card:nth-child(5) {
-		color: #020202;
+		color: #f2eaea;
 	  }
 	  
 	  .card:nth-child(3) .card-heading-title, .card:nth-child(5) .card-heading-title {
-		color: rgba(5, 5, 5, 0.507) !important;
+		color: rgba(242, 237, 237, 0.507) !important;
 	  }
 	  
 	  .card:nth-child(3) .card-desc, .card:nth-child(5) .card-desc {
-		color: #010101 !important;
+		color: #efeded !important;
 	  }
 	  
 	  .card:nth-child(1) {
@@ -2379,7 +2375,7 @@ input, select, textarea {
 	  }
 	
 	  #contact.box.style2 {
-		background-color: rgb(168, 230, 247);
+		background-color: transparent;
 		color: #040606;
 		
 	}
@@ -2389,7 +2385,8 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
-		background-color: #54d6f0;
+		background-color: rgb(129, 172, 184);
+		color: #000001;
 	}
 
 		#contact .box {
@@ -2402,7 +2399,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
-			background-color: #4dd6f2;
+			background-color: rgb(129, 172, 184);
 			color: #020303;
 		}
 
@@ -2411,6 +2408,7 @@ input, select, textarea {
 			-webkit-transform: translateY(100%);
 			-ms-transform: translateY(100%);
 			transform: translateY(100%);
+			color: #000001;
 		}
 
 		@media screen and (max-width: 736px) {
